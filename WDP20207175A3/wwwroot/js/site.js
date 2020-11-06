@@ -9,7 +9,7 @@ function makeImageBlur(obj) {
 
 function makeImageUnblur(obj) {
     obj.style.opacity = 1;
-    document.getElementById("bgimage").style.background = "lightgrey";
+    //document.getElementById("bgimage").style.background = "lightgrey";
 }
 
 function displayBigImage(obj) {

@@ -270,8 +270,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    height: 400px;
+    height: 500px;
     background-color: lightgrey;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* My Custom CSS - Resizing (From Assignment 1 Solution)
