@@ -175,31 +175,96 @@
 </div>
 
 <!-- Image Grid-->
-<div class="container-fluid ml-1 mr-1">
-    <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12 q1"
-             style="background-image: url(@Url.Content("~/images/location/bellucis_logo.jpg")); background-size: 100%; background-repeat:no-repeat;"
-             onmouseover="makeImageBlur(this)" onmouseout="makeImageUnblur(this)" onclick="displayBigImage(this)">
+<div class="container-fluid bgi">
+    <div class="row bgc centre">
+        <div class="col-md-4 col-sm-6 col-12" id="bglogo" style="background-image: url('@Url.Content("~/images/location/bellucis_logo.jpg")');"
+             onmouseover="displayInfo('div1')" onmouseout="removeInfo('div1')">
+            <div class="ResInfo" id="div1" onclick="displayImage('../images/carousel/bellucis.jpg')">
+                <div class="block">
+                    <h3 class="h3s">Belluci’s Italian</h3>
+                    <p class="ps">
+                        "Belluci's demonstrates a new concept, a new food philosophy – the dawn of a new era in Canberra dining.
+                        Having been established more than 20 years ago, Belluci's fast became an iconic name in Canberra.
+                        To bring you the finest dishes, we’ve gone back to traditional Italian routes, creating simple, rustic food."
+
+                        <br />Belluci's Italian Website.
+                    </p>
+                    <button class="website-btn" onClick="parent.location='https://bellucis.com.au/home.php'">Web Site</button>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 q1"
-             style="background-image:url(@Url.Content("~/images/location/bluginger_logo.jpg")); background-size: 100%; background-repeat:no-repeat;"
-             onmouseover="makeImageBlur(this)" onmouseout="makeImageUnblur(this)" onclick="displayBigImage(this)">
+        <div class="col-md-4 col-sm-6 col-12" id="bglogo" style="background-image: url('@Url.Content("~/images/location/is_logo.jpg")');"
+             onclick="displayImage('../images/carousel/itandsons_car.jpg')" onmouseover="displayInfo('div2')" onmouseout="removeInfo('div2')">
+            <div class="ResInfo" id="div2">
+                <div class="block">
+                    <h3 class="h3s">Italian and Sons</h3>
+                    <p class="ps">
+                        "A casual Italian trattoria that specialises in wood fired pizzas such as Rucola with Prosciutto di Parma,
+                        rucola & reggiano. Don't miss daily changing main dishes of the day such as their wood roast suckling pig,
+                        rosemary, garlic, baked baby fennel & mustard fruits."
+                    </p>
+                    <p class="ps">Australian Good Food Guide Website.</p>
+                    <button class="website-btn" onClick="parent.location='http://italianandsons.com.au/'">Web Site</button>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 q1"
-             style="background-image:url(@Url.Content("~/images/location/chairman_logo.jpg")); background-size: 100%; background-repeat:no-repeat;"
-             onmouseover="makeImageBlur(this)" onmouseout="makeImageUnblur(this)" onclick="displayBigImage(this)">
+        <div class="col-md-4 col-sm-6 col-12" id="bglogo" style="background-image: url('@Url.Content("~/images/location/bluginger_logo.jpg")');"
+             onclick="displayImage('../images/carousel/bluginger_car.jpg')" onmouseover="displayInfo('div3')" onmouseout="removeInfo('div3')">
+            <div class="ResInfo" id="div3">
+                <div class="block">
+                    <h3 class="h3s">Blu Ginger</h3>
+                    <p class="ps">
+                        "At Blu Ginger we use only the freshest locally sourced produce, combined with authentic
+                        spices imported directly from the sub-continent, to offer classic, traditional recipes with
+                        a modern twist, creating a unique and memorable dining experience for you."
+                    </p>
+                    <p class="ps">Blu Ginger Website.</p>
+                    <button class="website-btn" onClick="parent.location='http://www.bluginger.com.au/'">Web Site</button>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 q1"
-             style="background-image:url(@Url.Content("~/images/location/noodle_logo.jpg")); background-size: 100%; background-repeat:no-repeat;"
-             onmouseover="makeImageBlur(this)" onmouseout="makeImageUnblur(this)" onclick="displayBigImage(this)">
+        <div class="col-md-4 col-sm-6 col-12" id="bglogo" style="background-image: url('@Url.Content("~/images/location/jewel_logo.jpg")');"
+             onclick="displayImage('../images/carousel/jewel_car.jpg')" onmouseover="displayInfo('div4')" onmouseout="removeInfo('div4')">
+            <div class="ResInfo" id="div4">
+                <div class="block">
+                    <h3 class="h3s">Jewel of India</h3>
+                    <p class="ps">
+                        "Finding a balance between dishes inspired by authentic recipes and creating a modern take on
+                        classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast."
+                    </p>
+                    <p class="ps">Australian Good Food Guide Website.</p>
+                    <button class="website-btn" onClick="parent.location='http://www.jewelofindia.com.au/'">Web Site</button>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 q1"
-             style="background-image:url(@Url.Content("~/images/location/is_logo.jpg")); background-size: 100%; background-repeat:no-repeat;"
-             onmouseover="makeImageBlur(this)" onmouseout="makeImageUnblur(this)" onclick="displayBigImage(this)">
+        <div class="col-md-4 col-sm-6 col-12" id="bglogo" style="background-image: url('@Url.Content("~/images/location/chairman_logo.jpg")');"
+             onclick="displayImage('../images/carousel/chairman_car.jpeg')" onmouseover="displayInfo('div5')" onmouseout="removeInfo('div5')">
+            <div class="ResInfo" id="div5">
+                <div class="block">
+                    <h3 class="h3s">Chairman & Yip</h3>
+                    <p class="ps">
+                        "The Chairman & Yip has become one of Canberra’s longest standing and most highly regarded institutions,
+                        having received numerous awards over the years, offering an ever consistent and professional quality
+                        of service for corporate dining, conferences and presentations."
+                    </p>
+                    <p class="ps">Chairman & Yip website.</p>
+                    <button class="website-btn" onClick="parent.location='http://chairmangroup.com.au/chairmanyip/'">Web Site</button>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 q1"
-             style="background-image: url(@Url.Content("~/images/location/jewel_logo.jpg")); background-size: 100%; background-repeat:no-repeat;"
-             onmouseover="makeImageBlur(this)" onmouseout="makeImageUnblur(this)" onclick="displayBigImage(this)">
+        <div class="col-md-4 col-sm-6 col-12" id="bglogo" style="background-image: url('@Url.Content("~/images/location/noodle_logo.jpg")');"
+             onclick="displayImage('../images/carousel/dicksonnoodle_car.jpeg')" onmouseover="displayInfo('div6')" onmouseout="removeInfo('div6')">
+            <div class="ResInfo" id="div6">
+                <div class="block">
+                    <h3 class="h3s">Dickson Asian Noodle House</h3>
+                    <p class="ps">
+                        "The Dickson Asian Noodle House specialises in traditional Malaysian, Thai and Lao cuisine.
+                        The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away."
+                    </p>
+                    <p class="ps">Vibe FM Website.</p>
+                    <button class="website-btn" onClick="parent.location='https://www.facebook.com/pages/Dickson-Asian-Noodle-House/156690017692038'">Web Site</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
