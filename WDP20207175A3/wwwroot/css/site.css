@@ -69,3 +69,188 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/* My Custom CSS 
+-------------------------------------------------- */
+.bgc {
+    background-color: rgba(31,20,20,0.7);
+}
+
+.bgi {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+.bgs {
+    width: 100%;
+    padding: 7%;
+}
+
+#introBox {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Oxygen", sans-serif;
+    font-size: 26px;
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    line-height: 26px;
+}
+
+#quote {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    margin-bottom: -100px
+}
+
+#quote2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    margin-bottom: -30px
+}
+
+/**Index stuff**/
+.frontQ {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.niccone {
+    font-family: 'Niconne', cursive;
+    font-weight: 400;
+    color: goldenrod;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.oxygenh2 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 32px;
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* My Custom CSS - Resizing (From Assignment 1 Solution)
+-------------------------------------------------- */
+@media (min-width: 992px) {
+    .niccone {
+        font-size: 3.6em;
+        padding-bottom: 50px;
+    }
+
+    .frontQ {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .niccone {
+        font-size: 3em;
+        padding-bottom: 70px;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+
+    .h3s {
+        font-size: 20px;
+    }
+
+    .ps {
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    #introBox {
+        font-size: 20px;
+        width: 300px;
+        line-height: 20px;
+    }
+
+    #blurb {
+        float: none;
+    }
+
+    .frontQ {
+        font-size: 16px;
+    }
+
+    .w {
+        color: white;
+        margin-bottom: -20px;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .niccone {
+        font-size: 2.4em;
+        padding-bottom: 70px;
+    }
+
+    #blurb {
+        float: none;
+    }
+
+    #introBox {
+        font-size: 16px;
+        width: 250px;
+        line-height: 16px;
+    }
+
+    .oxygenh2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .h3s {
+        font-size: 25px;
+    }
+
+    .frontQ {
+        font-size: 14px;
+    }
+
+    .w {
+        color: white;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .ps {
+        font-size: 14px;
+        line-height: normal;
+    }
+}
