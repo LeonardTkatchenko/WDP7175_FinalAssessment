@@ -211,6 +211,60 @@ body {
     padding-right: 0px;
 }
 
+.IndexHead { /**Index and Prices**/
+    margin-bottom: -10px;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.block { /*Index and restaurants*/
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.row {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+#blue {
+    color: darkblue;
+    margin-bottom: -40px;
+    padding: 10px;
+}
+
+.centre {
+    justify-content: center;
+    text-align: center;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.welcome-image img {
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.IndexDisc { /**Index and Prices**/
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+}
+
 /* My Custom CSS - Resizing (From Assignment 1 Solution)
 -------------------------------------------------- */
 @media (min-width: 992px) {
