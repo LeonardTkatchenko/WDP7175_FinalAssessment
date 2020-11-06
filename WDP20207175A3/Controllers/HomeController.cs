@@ -23,7 +23,7 @@ namespace WDP20207175A3.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Restaurants()
         {
             return View();
         }
