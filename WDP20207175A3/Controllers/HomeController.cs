@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WDP20207175A3.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WDP20207175A3.Controllers
 {
@@ -23,6 +25,7 @@ namespace WDP20207175A3.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Restaurants()
         {
             return View();
