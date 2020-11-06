@@ -265,6 +265,15 @@ body {
     margin-bottom: 30px;
 }
 
+.grey-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
 /* My Custom CSS - Resizing (From Assignment 1 Solution)
 -------------------------------------------------- */
 @media (min-width: 992px) {
@@ -275,6 +284,10 @@ body {
 
     .frontQ {
         font-size: 20px;
+    }
+
+    .q1 {
+        padding: 10%;
     }
 }
 
@@ -322,6 +335,10 @@ body {
     p {
         font-size: 15px;
     }
+
+    .q1 {
+        padding: 10%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -366,5 +383,9 @@ body {
     .ps {
         font-size: 14px;
         line-height: normal;
+    }
+
+    .q1 {
+        padding: 25%;
     }
 }
