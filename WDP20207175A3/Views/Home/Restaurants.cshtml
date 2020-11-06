@@ -5,7 +5,14 @@
     <div class="bgc bgs">
         <div id="introBox" style="margin-bottom:100px">Canberra Restaurants</div>
         <div id="quote" style="padding-bottom:100px;">
-            <h1 id="add-restaurants" class="niccone" style="padding-top:0px;">Add New Restaurants</h1>
-        </div>
+            @if (User.IsInRole("Admin")) 
+            { 
+                <h1 id="add-restaurants" class="niccone" style="padding-top:0px;">Add New Restaurants</h1>
+            }
+            </div>
     </div>
+</div>
+
+<div>
+    <!-- Restaurants Go Here-->
 </div>
