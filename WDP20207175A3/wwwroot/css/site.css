@@ -84,9 +84,69 @@ body {
     background-position: top center;
 }
 
+.bgi-bi {
+    background-image: url(../images/carousel/bellucis.jpg);
+}
+
+.bgi-bg {
+    background-image: url(../images/carousel/bluginger_car.jpg);
+}
+
+.bgi-cy {
+    background-image: url(../images/carousel/chairman_car.jpeg);
+}
+
+.bgi-dn {
+    background-image: url(../images/carousel/dicksonnoodle_car.jpeg);
+}
+
+.bgi-is {
+    background-image: url(../images/carousel/itandsons_car.jpg);
+}
+
+.bgi-ji {
+    background-image: url(../images/carousel/jewel_car.jpg);
+}
+
 .bgs {
     width: 100%;
     padding: 7%;
+}
+
+.restaurant {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.website {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Oxygen", sans-serif;
+    font-size: 26px;
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    line-height: 26px;
+    margin-bottom: -100px
+}
+
+    .website > a{
+        color: white;
+    }
+
+.rest-descrpt {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: -50px;
 }
 
 #introBox {
