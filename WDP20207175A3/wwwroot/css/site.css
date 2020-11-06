@@ -333,7 +333,9 @@ img.img-responsive {
     border: 2px solid cornflowerblue;
 }
 
-
+#add-restaurants {
+    color: royalblue;
+}
 /* My Custom CSS - Resizing (From Assignment 1 Solution)
 -------------------------------------------------- */
 @media (min-width: 992px) {
