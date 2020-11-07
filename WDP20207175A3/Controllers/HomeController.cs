@@ -25,12 +25,6 @@ namespace WDP20207175A3.Controllers
             return View();
         }
 
-        [Authorize]
-        public IActionResult Restaurants()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
